@@ -25,7 +25,7 @@ nav a:hover{
     border-bottom: 1px solid orangered;
 }
 #body-header{
-    height:65vh;
+    height:55vh;
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.RyAe3SLP-FnJ8R4PRoc7XwHaDt%26pid%3DApi&f=1&ipt=b48e71b20baa0c87f761acbdbabe5b07879d2b5c3877309945b01d6ab1e6fb1d&ipo=images);
     background-size: cover;
     background-position: center;
@@ -35,12 +35,60 @@ nav a:hover{
     display: inline;
 }
 
+#MyName{
+    margin-top: 16%;
+    padding-left: 24px;
+    color:white;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;}
 
 .link-icons {
+    margin-left:-35px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    
   }
+
+ .link-icons a{
+    text-decoration: none;
+ } 
+
 .fa-brands{
+    color:white;
     display: inline;
     text-align: center;
+    padding: 5px;
+    font-size: 30px;
+/* px; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-brands:hover{
+    box-shadow: 0px 0px 6px 4px aqua;
+    text-decoration: none;
+    /* border-bottom: 0px; */
+}
+
+#ProfilePic{
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+}
+
+#pfp{
+    
+    width:200px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#about-text{
+    text-align: center;
+    width:100%;
+    height:7rem;
 }
