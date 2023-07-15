@@ -7,18 +7,26 @@ body{
     background-color: black;
     color: aqua;
 }
-nav{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  background-color: aqua;
-  color: purple;
-}
 nav ul{
     text-align: center;
 }
 nav li{
+    color: aqua;
+    margin: 0px 8px 8px 0px;
     display: inline;
 }
-
+nav a{
+    color:aqua;
+    text-decoration: none;
+    transform:  border-bottom 4s;
+}
+nav a:hover{
+    border-bottom: 1px solid orangered;
+}
+#body-header{
+    height:65vh;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.RyAe3SLP-FnJ8R4PRoc7XwHaDt%26pid%3DApi&f=1&ipt=b48e71b20baa0c87f761acbdbabe5b07879d2b5c3877309945b01d6ab1e6fb1d&ipo=images);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
