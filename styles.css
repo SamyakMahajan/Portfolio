@@ -19,6 +19,7 @@ nav a{
     color:aqua;
     text-decoration: none;
     transform:  border-bottom 4s;
+    /* Transition effects need to be improved */
 }
 nav a:hover{
     border-bottom: 1px solid orangered;
@@ -29,4 +30,17 @@ nav a:hover{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.horizontal-list{
+    display: inline;
+}
+
+
+.link-icons {
+    display: flex;
+    justify-content: center;
+  }
+.fa-brands{
+    display: inline;
+    text-align: center;
 }
